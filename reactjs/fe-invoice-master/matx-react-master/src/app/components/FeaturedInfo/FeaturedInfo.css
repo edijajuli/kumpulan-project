@@ -1,0 +1,113 @@
+
+
+    .featured {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 30px 0;
+    }
+
+    .featuredItem {
+        flex: 1;
+        margin: 0 20px;
+        padding: 30px;
+        border-radius: 10px;
+        cursor: pointer;
+        box-shadow: 1px 3px 6px 2px rgba(0,0,0,0.62);
+        -webkit-box-shadow: 1px 3px 6px 2px rgba(0,0,0,0.62);
+        -moz-box-shadow: 1px 3px 6px 2px rgba(0,0,0,0.62);
+        transition: 0.5s;
+    }
+
+    .featuredItem:hover {
+        transform: (1.3);
+        z-index: 222;
+    }
+
+    /* .featuredItem.one {
+        background: linear-gradient(
+        180deg,
+        #95CD41 15%,
+        #A3DA8D 85%
+        ); 
+    }
+
+    .featuredItem.two {
+        background: linear-gradient(
+        180deg,
+        #EA5C2B 15%,
+        #FF7272 85%
+        ); 
+    }
+
+    .featuredItem.three {
+        background: linear-gradient(
+        180deg,
+        #FFBD35 15%,
+        #EBE645 85%
+        ); 
+    }
+
+    .featuredItem.four {
+        background: linear-gradient(
+        180deg,
+        #95D1CC 15%,
+        #84DFFF 85%
+        ); 
+    }
+
+    .featuredItem.five {
+        background: linear-gradient(
+        180deg,
+        #F9C5D5 15%,
+        #FEE3EC 85%
+        ); 
+    }
+
+    .featuredItem.six {
+        background: linear-gradient(
+        180deg,
+        #D47AE8 15%,
+        #F4BEEE 85%
+        ); 
+    } */
+
+    .featuredTitle {
+        font-size: 21px;
+    }
+
+    .featuredNumberContainer {
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .featuredNumber {
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .featuredNumberRate {
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+        font-size: 18px;
+    }
+
+    .featuredIcon {
+        font-size: 18px;
+        margin-left: 5px;
+        color: green;
+    }
+
+    .featuredIcon.negative {
+        color: red;
+    }
+
+    .featuredSub {
+        font-size: 15px;
+        color: rgb(32, 32, 32);
+        display: flex;
+        justify-content: flex-end;
+    }
+

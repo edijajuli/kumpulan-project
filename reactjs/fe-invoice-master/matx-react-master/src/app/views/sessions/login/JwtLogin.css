@@ -1,0 +1,71 @@
+
+    
+    .card1 {
+        box-shadow: 10px 9px 25px -2px rgba(0,0,0,0.55) !important;
+        -webkit-box-shadow: 10px 9px 25px -2px rgba(0,0,0,0.55);
+        -moz-box-shadow: 10px 9px 25px -2px rgba(0,0,0,0.55);
+    }
+    
+    .bodyLogin {
+        background: linear-gradient(
+        -90deg,
+        #FF7F3F 25%,
+        #F05A28 75%
+        ); 
+    }
+
+    .buttonSignIn {
+        margin-top: 20px;
+        background: linear-gradient(
+        90deg,
+        #E3670C 5%,
+        #FBB448 95%
+        ); 
+        float: right;
+        color: rgb(20, 20, 20);
+    }
+
+    .buttonSignIn:hover {
+        background: linear-gradient(
+        90deg,
+        #FFEEE7 5%,
+        #FEFCDB 95%
+        );
+        box-shadow: 1px 3px 6px 2px rgba(0,0,0,0.62);
+        -webkit-box-shadow: 1px 3px 6px 2px rgba(0,0,0,0.62);
+        -moz-box-shadow: 1px 3px 6px 2px rgba(0,0,0,0.62);
+    }
+
+    .Container-mask {
+        display: grid;
+        grid-template-columns: 80% 20%;
+    }
+
+    .password-mask {
+        width: 100%;
+    }
+
+    .password-toogle-icon {
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin-left: 10px;
+        cursor: pointer;
+        border: none;
+        float: right;
+        background: linear-gradient(
+        90deg,
+        #E3670C 5%,
+        #FBB448 95%
+        );
+    }
+
+    .password-toogle-icon:hover {
+        background: linear-gradient(
+        90deg,
+        #FFEEE7 5%,
+        #FEFCDB 95%
+        );
+        box-shadow: 1px 3px 6px 2px rgba(0,0,0,0.62);
+        -webkit-box-shadow: 1px 3px 6px 2px rgba(0,0,0,0.62);
+        -moz-box-shadow: 1px 3px 6px 2px rgba(0,0,0,0.62);
+    }

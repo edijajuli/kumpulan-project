@@ -1,0 +1,36 @@
+
+
+    .container {
+        display: flex;
+        margin-right: 35px;
+        margin-top: 25px;
+        justify-content: flex-end;
+    }
+
+    .button {
+        display: flex;
+        flex-direction: row;
+        box-shadow: 1px 3px 6px 2px rgba(0,0,0,0.62);
+        -webkit-box-shadow: 1px 3px 6px 2px rgba(0,0,0,0.62);
+        -moz-box-shadow: 1px 3px 6px 2px rgba(0,0,0,0.62);
+        background: linear-gradient(
+        -185deg,
+        #E8751A 5%,
+        #FDA403 95%
+        );
+    }
+
+    .btn {
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 13px;
+        position: relative;
+    }
+
+    .btn:hover {
+        background: linear-gradient(
+        90deg,
+        #FFEEE7 5%,
+        #FEFCDB 95%
+        );
+    }
